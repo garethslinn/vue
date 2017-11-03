@@ -18,6 +18,7 @@
 		methods: {
 			fetchItems() {
 				this.items = []
+				this.type = this.$route.params.type
 				let initial_ids = [1, 13, 14]
 
 				for (let i in initial_ids) {
