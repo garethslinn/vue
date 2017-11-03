@@ -18,5 +18,5 @@ lists
 
 #Applications
 
-1) Note Master: Done
-2) Starbase: in progress
+1) Note Master: Complete
+2) Starbase: Complete
