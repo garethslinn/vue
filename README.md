@@ -2,19 +2,7 @@
 
 #Core
 
-Buttons
-
-components
-
-computed
-
-directives
-
-hooks
-
-instance
-
-lists
+buttons, components, computed ,directives ,hooks ,instance, lists
 
 #Applications
 
