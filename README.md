@@ -18,6 +18,9 @@ buttons, components, computed ,directives ,hooks ,instance, lists
 2) Starbase: Complete
 3) Starbase Router: Complete
 
-#State
+#State Applications Vuex 
 
-Integrate Vuex
+1) Jokester
+
+
+
