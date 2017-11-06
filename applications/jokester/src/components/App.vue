@@ -3,6 +3,7 @@
 
         <h3>Got jokes?</h3>
         <button class="btn btn-primary" @click="initJokes">Add ten jokes</button>
+        <button class="btn btn-primary" @click="addJoke">Add a joke</button>
         <br><br>
         <div class="col-md-12">
             <Joke
@@ -21,7 +22,8 @@
 
     export default {
         methods: mapActions([
-            'initJokes'
+            'initJokes',
+            'addJoke'
         ]),
         components: {
             Joke
