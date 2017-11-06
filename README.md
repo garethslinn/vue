@@ -20,7 +20,7 @@ buttons, components, computed ,directives ,hooks ,instance, lists
 
 #State Applications Vuex 
 
-1) Jokester
+1) Jokester: Complete
 
 
 
