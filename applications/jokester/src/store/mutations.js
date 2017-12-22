@@ -10,5 +10,8 @@ export const mutations = {
     },
     [types.REMOVE_JOKE] (state, index) {
         state.jokes.splice(index, 1)
+    },
+    [types.CLEAR_JOKES] (state) {
+    	state.jokes = [];
     }
 }

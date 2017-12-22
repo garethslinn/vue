@@ -3,6 +3,7 @@
         <h3>Got jokes?</h3>
         <button class="btn btn-primary" @click="initJokes">Add Ten Random Jokes</button>
         <button class="btn btn-primary" @click="addJoke">Add a Joke</button>
+        <button class="btn btn-primary" @click="clearJokes">Clear all</button>
         <br>
         <span v-for="type in types">
     <input
@@ -38,7 +39,8 @@
         },
         methods: mapActions([
             'initJokes',
-            'addJoke'
+            'addJoke',
+            'clearJokes'
         ]),
         components: {
             Joke

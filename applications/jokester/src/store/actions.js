@@ -19,3 +19,7 @@ export const addJoke = ({ commit }) => {
 export const removeJoke = ({ commit }, index) => {
     commit(types.REMOVE_JOKE, index);
 };
+
+export const clearJokes = ({ commit }) => {
+    commit(types.CLEAR_JOKES);
+};
